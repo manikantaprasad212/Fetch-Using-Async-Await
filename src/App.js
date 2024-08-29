@@ -32,8 +32,8 @@ let [products,setProducts]= useState([]);
           <p>{ele.title}</p>
           <p>Price:${ele.price}</p>
           <p>{ele.category}</p>
-          <p>{ele.rate}</p>
-          <p></p>
+          <p>[{ele.rating.count}]</p>
+          
        </div>
       
       })}
